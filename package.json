@@ -14,5 +14,9 @@
     "nuxt": "^3.14.1592",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "nitro-cloudflare-dev": "^0.2.1",
+    "wrangler": "^3.94.0"
   }
 }
