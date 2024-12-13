@@ -46,10 +46,8 @@ import { ref } from 'vue'
 import { Icon } from '#build/components'
 
 const links = [
-  { label: 'Beranda', icon: 'i-heroicons-outline-home', to: '/' },
-  { label: 'Tentang Kami', icon: 'i-heroicons-outline-information-circle', to: '/tentang-kami' },
-  { label: 'Kontak', icon: 'i-heroicons-outline-phone', to: '/kontak' },
-  { label: 'Blog', icon: 'i-heroicons-outline-document-text', to: '/blog' }
+  { label: 'Beranda', icon: 'i-heroicons-outline-home', to: 'https://www.boringan.com' },
+  { label: 'Gallery', icon: 'i-heroicons-outline-information-circle', to: '/' },
 ]
 
 const mobileMenuOpen = ref(false)
